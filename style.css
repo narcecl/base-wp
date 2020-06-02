@@ -1,5 +1,5 @@
 /*
-	Theme Name: Theme Model
+	Theme Name: Theme model
 	Theme URI: 
 	Description: 
 	Author: Nicolás Arce
@@ -12,9 +12,10 @@
 @import "assets/css/grids.css";
 @import "assets/css/helpers.css";
 @import "assets/css/glyphs.css";
-@import "assets/css/flexslider.css"
+@import "assets/css/flexslider.css";
 
 /********** GENERALES **********/
 body, button, input, textarea, select, select option{font-family:'Open Sans'}
 h1,h2,h3,h4,h5,h6{}
 p, li, label{font-size:14px;line-height:22px;color:#555;}
+.navToggle{display:none}

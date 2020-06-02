@@ -1,5 +1,5 @@
 <footer class="main-footer">
 	<div class="container">
-		<?php echo get_bloginfo('name'); ?> &copy; <?php echo date('Y'); ?>
+		<p><?php echo get_bloginfo('name'); ?> &copy; <?php echo date('Y'); ?></p>
 	</div>
 </footer>

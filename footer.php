@@ -1,4 +1,4 @@
-<?php get_template_part( 'template-parts/includes/include', 'nav' ); ?>
+<?php get_template_part( 'template-parts/includes/include', 'footer' ); ?>
 
 <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/assets/css/multi.css">
 

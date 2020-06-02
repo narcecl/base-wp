@@ -173,5 +173,4 @@ function getCustomIMG($field,$imagen){
 add_theme_support( 'post-thumbnails' );
 add_action( 'init', 'wpcodex_add_excerpt_support_for_pages' );
 add_action( 'add_attachment', 'ced_add_image_meta_data' );
-add_filter('single_template', create_function('$t', 'foreach( (array) get_the_category() as $cat ) { if ( file_exists(TEMPLATEPATH . "/single-{$cat->term_id}.php") ) return TEMPLATEPATH . "/single-{$cat->term_id}.php"; } return $t;' ));
 ?>
